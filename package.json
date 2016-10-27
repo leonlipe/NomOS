@@ -1,0 +1,42 @@
+{
+  "name": "Nomos",
+  "author": "Leon Felipe",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Nomos",
+    "uuid": "2822ea2a-f033-44c1-9d54-b9ea24778dda",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+         {
+            "type": "bitmap",
+            "name": "BACKGROUND_BW_IMAGE",
+            "file": "aii_nm_bw.png"
+          }
+      ]
+    },
+    "messageKeys": {
+    "KEY_TEMPERATURE": 1,
+    "KEY_TEMPERATURE_UNITS": 2,
+    "KEY_TEMPERATURE_PROVIDER": 3,
+    "KEY_TEMPERATURE_API": 4,
+    "KEY_INVERTED": 5,
+    "KEY_TEMPERATURE_VALUE": 6
+
+    }
+  }
+}
